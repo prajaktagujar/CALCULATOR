@@ -1,0 +1,33 @@
+#Calculator {
+    background-color:#6098c9; /* Red color */
+    width: 300px;  /* Set width */
+    height: 500px; /* Set height */
+    justify-content: center;
+    text-align :center;
+    align-items :center
+}
+#display{
+width: 90%;
+margin :2%;
+height: 10%;
+font-size:20px;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 buttons per row */
+    gap: 5px; /* Space between buttons */
+    width: 100%; /* Ensure proper width */
+    max-width: 250px; /* Set a reasonable max-width */
+    margin: auto; /* Center it */
+}
+.button {
+    background:#45668b(123, 196, 241);
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    color:#FFFFFF(208, 93, 93);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
